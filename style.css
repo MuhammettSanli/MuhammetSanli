@@ -1,0 +1,134 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(135deg, #0061a8, #00c2cb);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4f4f9;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+}
+
+/* Bölüm Ayarları */
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+section h1, section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+section img {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Video Ayarları */
+video {
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #00c2cb;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #0061a8, #00c2cb);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Hover ve Geçiş Animasyonları */
+section h1, section h2, nav ul li a {
+    transition: all 0.3s ease-in-out;
+}
+
+section h1:hover, section h2:hover {
+    color: #0061a8;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 40px 10px;
+    }
+}
+
+
+#hedef {
+    margin-bottom: 150px;
+}
+
+#yetenek ul li {
+    list-style-type: none;
+    
+}
